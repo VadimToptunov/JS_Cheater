@@ -1,3 +1,8 @@
+/*
+	Cheating script for https://orteil.dashnet.org/cookieclicker/
+	Run in Browser Developer Console
+*/
+
 Game.bakeryName = "My Cheater's bakery";
 //set name of your bakery
 
