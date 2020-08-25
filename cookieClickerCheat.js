@@ -21,6 +21,9 @@ var id = Game.Achievements[i].id;
 Game.AchievementsById[id].won = false;
 }
 
+//Set upgrades
+for (var i in Game.UpgradesById){var me=Game.UpgradesById[i]; me.bought=1;}
+
 Game.volume = 0;
 Game.prefs.cookiesound = 0;
 //set sounds to 0
