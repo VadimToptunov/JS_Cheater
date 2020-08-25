@@ -12,8 +12,14 @@ Game.cookies = 99999999999999999999999999999999999999999999999999999999999999999
 Game.goldenClicksLocal = 99999999999999999999999999999999999999999999999999999999999;
 //set number of golden cookies
 
-Game.AchievementsOwned = 99999;
+Game.milkProgress=100000;
+Game.milkHd=1000;
+
 //Set achievements
+for(var i in Game.Achievements){
+var id = Game.Achievements[i].id;
+Game.AchievementsById[id].won = false;
+}
 
 Game.volume = 0;
 Game.prefs.cookiesound = 0;
